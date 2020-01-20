@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=Source\CAN-INTERFACES.SchDoc
+DocumentPath=Source\CAN-BUS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -48,30 +48,13 @@ AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UIWVHUEP
 
 [Document2]
-DocumentPath=Source\USB-HUB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XAWVRJGX
-
-[Document3]
 DocumentPath=Source\MCUs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,14 +65,14 @@ AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ABBXNFRJ
 
-[Document4]
-DocumentPath=Source\LIN-INTERFACES.SchDoc
+[Document3]
+DocumentPath=Source\LIN-BUS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -99,13 +82,13 @@ AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RPKKGLGX
 
-[Document5]
+[Document4]
 DocumentPath=Source\SUMMARY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,13 +99,13 @@ AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BFPKHILL
 
-[Document6]
+[Document5]
 DocumentPath=Source\EXTERNAL-INTERFACES.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,13 +116,13 @@ AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KCHXAFCI
 
-[Document7]
+[Document6]
 DocumentPath=Settings\AutomotiveNetworkEVB.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=Source\MODE-SELECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,13 +150,13 @@ AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QTPQHKML
 
-[Document9]
+[Document8]
 DocumentPath=PCB\AutomotiveNetworkEVB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -188,19 +171,152 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JJXQLAOD
+DocumentUniqueId=EBDXICKC
+
+[Document9]
+DocumentPath=Source\USB-UART.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SJTBKIJI
+
+[ProjectVariant1]
+UniqueID=373D0298-9056-4FBA-86B2-8418F7370C6D
+Description=StdAssy
+AllowFabrication=0
+ParameterCount=0
+VariationCount=31
+Variation1=Designator=TZ3|UniqueId=\RECDMWTT\XXVNJJKW|Kind=1|AlternatePart= 
+Variation2=Designator=D2|UniqueId=\DCLMOIKR\SVTIDDIE|Kind=1|AlternatePart= 
+Variation3=Designator=D3|UniqueId=\DCLMOIKR\OLVORXBQ|Kind=1|AlternatePart= 
+Variation4=Designator=U20|UniqueId=\DCLMOIKR\WOFRSOBO|Kind=1|AlternatePart= 
+Variation5=Designator=R138|UniqueId=\DCLMOIKR\EUOFTXVL|Kind=1|AlternatePart= 
+Variation6=Designator=C72|UniqueId=\DCLMOIKR\JDVKQJER|Kind=1|AlternatePart= 
+Variation7=Designator=R59|UniqueId=\RLDNCHKK\WQRWCOMT|Kind=1|AlternatePart= 
+Variation8=Designator=R60|UniqueId=\RLDNCHKK\TFSURVBT|Kind=1|AlternatePart= 
+Variation9=Designator=R61|UniqueId=\RLDNCHKK\UFAYFCKN|Kind=1|AlternatePart= 
+Variation10=Designator=R62|UniqueId=\RLDNCHKK\KSUSROJU|Kind=1|AlternatePart= 
+Variation11=Designator=R63|UniqueId=\RLDNCHKK\QRVXHSQT|Kind=1|AlternatePart= 
+Variation12=Designator=R64|UniqueId=\RLDNCHKK\ACWTNOVS|Kind=1|AlternatePart= 
+Variation13=Designator=R65|UniqueId=\RLDNCHKK\SULNTTLA|Kind=1|AlternatePart= 
+Variation14=Designator=R66|UniqueId=\RLDNCHKK\XNUVAJSO|Kind=1|AlternatePart= 
+Variation15=Designator=R71|UniqueId=\RLDNCHKK\YJPNXRDW|Kind=1|AlternatePart= 
+Variation16=Designator=R45|UniqueId=\RLDNCHKK\KGCMKRNU|Kind=1|AlternatePart= 
+Variation17=Designator=R72|UniqueId=\RLDNCHKK\XBTAMYIA|Kind=1|AlternatePart= 
+Variation18=Designator=R46|UniqueId=\RLDNCHKK\QHOGUFLD|Kind=1|AlternatePart= 
+Variation19=Designator=R73|UniqueId=\RLDNCHKK\YNDRNWIK|Kind=1|AlternatePart= 
+Variation20=Designator=R47|UniqueId=\RLDNCHKK\TWKHTSEB|Kind=1|AlternatePart= 
+Variation21=Designator=R74|UniqueId=\RLDNCHKK\KPWCVKBT|Kind=1|AlternatePart= 
+Variation22=Designator=R14|UniqueId=\QDNMWEUK\KCGUADPD|Kind=1|AlternatePart= 
+Variation23=Designator=R15|UniqueId=\QDNMWEUK\ONYKLWET|Kind=1|AlternatePart= 
+Variation24=Designator=R16|UniqueId=\QDNMWEUK\RYYBBNVO|Kind=1|AlternatePart= 
+Variation25=Designator=R36|UniqueId=\QDNMWEUK\XDWPSWYU|Kind=1|AlternatePart= 
+Variation26=Designator=R35|UniqueId=\QDNMWEUK\QGQSTNPH|Kind=1|AlternatePart= 
+Variation27=Designator=R112|UniqueId=\GGSGBINE\KMFGDDGQ|Kind=1|AlternatePart= 
+Variation28=Designator=S7|UniqueId=\GGSGBINE\BKGJSPLR|Kind=1|AlternatePart= 
+Variation29=Designator=R110|UniqueId=\GGSGBINE\VKIYDGBF|Kind=1|AlternatePart= 
+Variation30=Designator=CON7|UniqueId=\GGSGBINE\APVTMLOD|Kind=1|AlternatePart= 
+Variation31=Designator=CON8|UniqueId=\GGSGBINE\QERJEYXQ|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=373D0298-9056-4FBA-86B2-8418F7370C6D
+Description=BoM_Mouser
+AllowFabrication=0
+ParameterCount=0
+VariationCount=57
+Variation1=Designator=TZ3|UniqueId=\RECDMWTT\XXVNJJKW|Kind=1|AlternatePart= 
+Variation2=Designator=D2|UniqueId=\DCLMOIKR\SVTIDDIE|Kind=1|AlternatePart= 
+Variation3=Designator=D3|UniqueId=\DCLMOIKR\OLVORXBQ|Kind=1|AlternatePart= 
+Variation4=Designator=U20|UniqueId=\DCLMOIKR\WOFRSOBO|Kind=1|AlternatePart= 
+Variation5=Designator=R138|UniqueId=\DCLMOIKR\EUOFTXVL|Kind=1|AlternatePart= 
+Variation6=Designator=C72|UniqueId=\DCLMOIKR\JDVKQJER|Kind=1|AlternatePart= 
+Variation7=Designator=R59|UniqueId=\RLDNCHKK\WQRWCOMT|Kind=1|AlternatePart= 
+Variation8=Designator=R60|UniqueId=\RLDNCHKK\TFSURVBT|Kind=1|AlternatePart= 
+Variation9=Designator=R61|UniqueId=\RLDNCHKK\UFAYFCKN|Kind=1|AlternatePart= 
+Variation10=Designator=R62|UniqueId=\RLDNCHKK\KSUSROJU|Kind=1|AlternatePart= 
+Variation11=Designator=R63|UniqueId=\RLDNCHKK\QRVXHSQT|Kind=1|AlternatePart= 
+Variation12=Designator=R64|UniqueId=\RLDNCHKK\ACWTNOVS|Kind=1|AlternatePart= 
+Variation13=Designator=R65|UniqueId=\RLDNCHKK\SULNTTLA|Kind=1|AlternatePart= 
+Variation14=Designator=R66|UniqueId=\RLDNCHKK\XNUVAJSO|Kind=1|AlternatePart= 
+Variation15=Designator=R71|UniqueId=\RLDNCHKK\YJPNXRDW|Kind=1|AlternatePart= 
+Variation16=Designator=R45|UniqueId=\RLDNCHKK\KGCMKRNU|Kind=1|AlternatePart= 
+Variation17=Designator=R72|UniqueId=\RLDNCHKK\XBTAMYIA|Kind=1|AlternatePart= 
+Variation18=Designator=R46|UniqueId=\RLDNCHKK\QHOGUFLD|Kind=1|AlternatePart= 
+Variation19=Designator=R73|UniqueId=\RLDNCHKK\YNDRNWIK|Kind=1|AlternatePart= 
+Variation20=Designator=R47|UniqueId=\RLDNCHKK\TWKHTSEB|Kind=1|AlternatePart= 
+Variation21=Designator=R74|UniqueId=\RLDNCHKK\KPWCVKBT|Kind=1|AlternatePart= 
+Variation22=Designator=R14|UniqueId=\QDNMWEUK\KCGUADPD|Kind=1|AlternatePart= 
+Variation23=Designator=R15|UniqueId=\QDNMWEUK\ONYKLWET|Kind=1|AlternatePart= 
+Variation24=Designator=R16|UniqueId=\QDNMWEUK\RYYBBNVO|Kind=1|AlternatePart= 
+Variation25=Designator=R36|UniqueId=\QDNMWEUK\XDWPSWYU|Kind=1|AlternatePart= 
+Variation26=Designator=R35|UniqueId=\QDNMWEUK\QGQSTNPH|Kind=1|AlternatePart= 
+Variation27=Designator=CON1|UniqueId=\QDNMWEUK\TMIHKIIE|Kind=1|AlternatePart= 
+Variation28=Designator=CON2|UniqueId=\QDNMWEUK\YGHKDLTH|Kind=1|AlternatePart= 
+Variation29=Designator=CON3|UniqueId=\XSACKGYF\TUGIXBUF|Kind=1|AlternatePart= 
+Variation30=Designator=CON5|UniqueId=\XSACKGYF\DEKYAHXH|Kind=1|AlternatePart= 
+Variation31=Designator=CON6|UniqueId=\XSACKGYF\DNWVORPF|Kind=1|AlternatePart= 
+Variation32=Designator=CON4|UniqueId=\XSACKGYF\NHUIATOH|Kind=1|AlternatePart= 
+Variation33=Designator=LED4|UniqueId=\RLDNCHKK\DEHPAPEV|Kind=1|AlternatePart= 
+Variation34=Designator=LED5|UniqueId=\RLDNCHKK\KCXFDMGW|Kind=1|AlternatePart= 
+Variation35=Designator=LED6|UniqueId=\RLDNCHKK\SQIRJHHJ|Kind=1|AlternatePart= 
+Variation36=Designator=LED7|UniqueId=\RLDNCHKK\FMIFYQQD|Kind=1|AlternatePart= 
+Variation37=Designator=LED8|UniqueId=\RLDNCHKK\RMVSHLAU|Kind=1|AlternatePart= 
+Variation38=Designator=LED9|UniqueId=\RLDNCHKK\FMIDOUFK|Kind=1|AlternatePart= 
+Variation39=Designator=LED10|UniqueId=\RLDNCHKK\DGPDUKLH|Kind=1|AlternatePart= 
+Variation40=Designator=LED11|UniqueId=\RLDNCHKK\EYNSOVJV|Kind=1|AlternatePart= 
+Variation41=Designator=S1|UniqueId=\RLDNCHKK\HTRICOAO|Kind=1|AlternatePart= 
+Variation42=Designator=S2|UniqueId=\RLDNCHKK\OTOUSIGY|Kind=1|AlternatePart= 
+Variation43=Designator=S3|UniqueId=\RLDNCHKK\FXQXYLYS|Kind=1|AlternatePart= 
+Variation44=Designator=S4|UniqueId=\RLDNCHKK\IFTGJGES|Kind=1|AlternatePart= 
+Variation45=Designator=VR1|UniqueId=\RLDNCHKK\VYTHXCIQ|Kind=1|AlternatePart= 
+Variation46=Designator=LED16|UniqueId=\RLDNCHKK\CERARTHA|Kind=1|AlternatePart= 
+Variation47=Designator=LS1|UniqueId=\RLDNCHKK\KFGPQLDV|Kind=1|AlternatePart= 
+Variation48=Designator=R110|UniqueId=\GGSGBINE\VKIYDGBF|Kind=1|AlternatePart= 
+Variation49=Designator=S5|UniqueId=\GGSGBINE\LBCRMWKC|Kind=1|AlternatePart= 
+Variation50=Designator=S6|UniqueId=\GGSGBINE\RLEDFABE|Kind=1|AlternatePart= 
+Variation51=Designator=CON7|UniqueId=\GGSGBINE\APVTMLOD|Kind=1|AlternatePart= 
+Variation52=Designator=CON8|UniqueId=\GGSGBINE\QERJEYXQ|Kind=1|AlternatePart= 
+Variation53=Designator=R112|UniqueId=\GGSGBINE\KMFGDDGQ|Kind=1|AlternatePart= 
+Variation54=Designator=S7|UniqueId=\GGSGBINE\BKGJSPLR|Kind=1|AlternatePart= 
+Variation55=Designator=R37|UniqueId=\QDNMWEUK\WTLMENRW|Kind=0|AlternatePart= 
+Variation56=Designator=JP2|UniqueId=\QDNMWEUK\WOJJEPAX|Kind=1|AlternatePart= 
+Variation57=Designator=JP1|UniqueId=\QDNMWEUK\RFVLODTX|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for AutomotiveNetworkEVB\Design Rule Check - AutomotiveNetworkEVB.html
+DocumentPath=Fabrication\BOM\ANEVB-BOM-v1.0.0.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for AutomotiveNetworkEVB\Net Status - AutomotiveNetworkEVB.html
+DocumentPath=Project Outputs for AutomotiveNetworkEVB\Design Rule Check - AutomotiveNetworkEVB.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectVersion
-Value=1.0
+Name=PCB
+Value=MainBoard
+
+[Parameter2]
+Name=Project
+Value=Automotive Network EVB
+
+[Parameter3]
+Name=ProjectAbrev
+Value=ANEVB
+
+[Parameter4]
+Name=Version
+Value=1.0.0
 
 [Configuration1]
 Name=Sources
@@ -211,6 +327,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -321,7 +440,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=EPSON L365 Series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
