@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=PCB\AutomotiveNetworkEVB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OCTSKVSN
+
+[Document2]
 DocumentPath=Source\CAN-BUS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UIWVHUEP
 
-[Document2]
+[Document3]
 DocumentPath=Source\MCUs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ABBXNFRJ
 
-[Document3]
+[Document4]
 DocumentPath=Source\LIN-BUS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RPKKGLGX
 
-[Document4]
+[Document5]
 DocumentPath=Source\SUMMARY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BFPKHILL
 
-[Document5]
+[Document6]
 DocumentPath=Source\EXTERNAL-INTERFACES.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KCHXAFCI
 
-[Document6]
+[Document7]
 DocumentPath=Settings\AutomotiveNetworkEVB.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document8]
 DocumentPath=Source\MODE-SELECTOR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -155,23 +172,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QTPQHKML
-
-[Document8]
-DocumentPath=PCB\AutomotiveNetworkEVB.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EBDXICKC
 
 [Document9]
 DocumentPath=Source\USB-UART.SchDoc
@@ -299,6 +299,90 @@ DocumentPath=Fabrication\BOM\ANEVB-BOM-v1.0.0.csv
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Fabrication\NC Drill\AutomotiveNetworkEVB.DRL
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Fabrication\NC Drill\AutomotiveNetworkEVB.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.G1
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GM10
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Fabrication\NC Drill\AutomotiveNetworkEVB.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.REP
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Fabrication\Gerber\AutomotiveNetworkEVB.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Fabrication\NC Drill\AutomotiveNetworkEVB.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument23]
 DocumentPath=Project Outputs for AutomotiveNetworkEVB\Design Rule Check - AutomotiveNetworkEVB.html
 DItemRevisionGUID=
 

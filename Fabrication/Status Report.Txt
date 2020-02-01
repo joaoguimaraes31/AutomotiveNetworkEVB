@@ -1,14 +1,26 @@
-Project Outputs Generation Report
----------------------------------
-Start Output Generation At 21:50:47 On 27/12/2019
+Output: Gerber Files
+Type  : Gerber
+From  : PCB Document [AutomotiveNetworkEVB.PcbDoc]
+   Generated File[AutomotiveNetworkEVB.GTO]
+   Generated File[AutomotiveNetworkEVB.GTP]
+   Generated File[AutomotiveNetworkEVB.GTS]
+   Generated File[AutomotiveNetworkEVB.GTL]
+   Generated File[AutomotiveNetworkEVB.GP1]
+   Generated File[AutomotiveNetworkEVB.G1]
+   Generated File[AutomotiveNetworkEVB.GBL]
+   Generated File[AutomotiveNetworkEVB.GBS]
+   Generated File[AutomotiveNetworkEVB.GBP]
+   Generated File[AutomotiveNetworkEVB.GBO]
+   Generated File[AutomotiveNetworkEVB.GM10]
+   Generated File[AutomotiveNetworkEVB.GM4]
+   Generated File[AutomotiveNetworkEVB.GM1]
+   Generated File[AutomotiveNetworkEVB.GKO]
+   Generated File[AutomotiveNetworkEVB.RUL]
+   Generated File[AutomotiveNetworkEVB.EXTREP]
+   Generated File[AutomotiveNetworkEVB.REP]
 
-Output: Bill of Materials
-Type  : BOM
-From  : Variant [BoM_Mouser] of Project [AutomotiveNetworkEVB.PrjPCB]
-   Generated File[ANEVB-BOM-v1.0.0.csv]
 
-
-Files Generated   : 1
+Files Generated   : 17
 Documents Printed : 0
 
-Finished Output Generation At 21:50:49 On 27/12/2019
+Finished Output Generation At 19:06:03 On 01/02/2020
