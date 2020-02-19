@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\joao.guimaraes\Documents\tmp\AutomotiveNetworkEVB\PCB\AutomotiveNetworkEVB.PcbDoc
+DRC Rules Export File for PCB: C:\Users\joaog\Documents\PCBProjects\AutomotiveNetworkEVB\PCB\AutomotiveNetworkEVB.PcbDoc
 RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.50
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00

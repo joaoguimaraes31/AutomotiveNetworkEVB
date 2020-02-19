@@ -1,23 +1,23 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: AutomotiveNetworkEVB.GBR   18/02/2020  07:58:12
+Gerber File Extension Report For: AutomotiveNetworkEVB.GBR   19/02/2020  18:45:18
 ------------------------------------------------------------------------------------------
 
 
 ------------------------------------------------------------------------------------------
 Layer Extension     Layer Description                      
 ------------------------------------------------------------------------------------------
-.GTO                Top Overlay                             
-.GTP                Top Paste                               
-.GTS                Top Solder                              
 .GTL                Top Layer                               
 .GP1                Ground Plane                            
 .G1                 Signal/Power                            
+.GTO                Top Overlay                             
 .GBL                Bottom Layer                            
+.GTP                Top Paste                               
+.GTS                Top Solder                              
 .GBS                Bottom Solder                           
 .GBP                Bottom Paste                            
 .GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
 .GM10               Cotas                                   
 .GM4                FabInfo                                 
 .GM1                Outline                                 
-.GKO                Keep-Out Layer                          
 ------------------------------------------------------------------------------------------
