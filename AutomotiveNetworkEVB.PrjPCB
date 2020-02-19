@@ -382,10 +382,6 @@ DItemRevisionGUID=
 DocumentPath=Fabrication\NC Drill\AutomotiveNetworkEVB.TXT
 DItemRevisionGUID=
 
-[GeneratedDocument23]
-DocumentPath=Project Outputs for AutomotiveNetworkEVB\Design Rule Check - AutomotiveNetworkEVB.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=PCB
 Value=MainBoard
